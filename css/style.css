@@ -1,0 +1,244 @@
+*{
+    margin: 0;
+    padding: 0;
+   
+}
+/*pre-header*/
+.pre-header{
+    background: rgb(73, 73, 73);
+}
+.pre-h-text{
+    color: rgb(168, 168, 168);
+    font-size: small;
+}
+.pre-h-mail{
+    border-right:1.5px solid rgb(59, 59, 59) ;
+
+}
+.pre-h-mail i{
+    color: rgb(209, 208, 208);
+    font-size: small;
+    margin-left: 100px;
+}
+.pre-h-mail a{
+    color: rgb(168, 168, 168);
+    font-size: small;
+    text-decoration: none;
+   
+}
+.pre-h-contact a{
+    color: rgb(209, 208, 208);
+    font-size: small;
+    margin-left: 16px;
+}
+.pre-h-contact a:hover{
+    color: tomato;
+}
+
+.navbar-icon{
+    background: rgb(185, 56, 34);
+}
+
+
+/*header*/
+.header{
+    background: rgb(49, 49, 49);
+}
+.icon-left{
+    float: left;
+    width: 15%;
+   
+}
+.icon-left i{
+    color:rgb(185, 56, 34);
+    
+}
+.description{
+    float: left;
+    width: 85%;
+}
+.description p{
+    font-size: 14px;
+}
+
+.contact p{
+    font-size: 14px;
+}
+.contact h4{
+    color:rgb(185, 56, 34);
+}
+
+
+ /*navber*/
+ .header-navbar{
+     background: #ffffff;
+}
+.header-navbar li a{
+    color: #000;
+    margin-right: 40px;
+    position: relative;
+    font-weight: 600;
+}
+.header-navbar li a i{
+    color: rgb(119, 119, 119);
+    font-size: 10px;
+    position: absolute;
+    top: 15px;
+    right: -3px;
+    
+}
+.header-navbar li a:hover{
+    color:rgb(226, 44, 11);
+}
+.header-navbar li a i:hover{
+    color:rgb(226, 44, 11);
+}
+
+
+
+/*mega-menu*/
+.menu-area{
+   position: relative;
+}
+.mega-menu {
+    position: absolute;
+    left:0px;
+    width: 680px;
+    top:100% ;
+    background: #c5d6d6;
+    justify-content: space-between;
+    transition: 0.3s;
+    overflow: hidden;
+    visibility: hidden;
+    opacity: 0;
+}
+.mega-menu .dropdown-item{
+    color: #000000;
+    overflow: hidden;
+   
+}
+.menu-area:hover  .mega-menu{
+    visibility: visible;
+    opacity: 1;
+}
+
+
+/*dropdwon-menu*/
+.dropdown-menu{
+    background: #ffffff;
+}
+a{
+    text-decoration: none;
+    
+}
+
+
+/*header-icon*/
+.header-icon{
+     padding-top: 15px;
+     padding-left: 30px;
+}
+.header-icon-min{
+    color: white;
+}
+.header-icon ul{
+    list-style: none;
+}
+.header-icon i{
+    padding-left: 20px;
+    position: relative;
+}
+.header-icon i:hover{
+    color:rgb(202, 74, 52);
+}
+.header-icon i ul{
+    position: absolute;
+    font-size:20px;
+    top: 108%;
+    left: 0px;
+    width: 150px;
+    background: #ffffff;
+    border-radius: 5px;
+    visibility: hidden;
+    opacity: 0;
+    cursor: pointer;
+    
+}
+.header-icon i:hover ul{
+    visibility: visible;
+    color:rgb(202, 74, 52);
+    opacity: 1;
+    z-index: 1;
+}
+
+
+/*footer*/
+.footer{
+    background-image: url(../image/bg-footer.jpg);
+    
+    background-size: cover;
+    background-position: center;
+    padding: 50px 0px 20px 0px;
+}
+
+.about-us p{
+    color: rgb(110, 109, 109);
+}
+.about-us p:hover{
+    color: rgb(219, 80, 29);
+}
+.recent-post h6{
+    color: rgb(110, 109, 109);
+}
+.recent-post h6:hover{
+    color: rgb(219, 80, 29);
+}
+.flicker img{
+    border: 0;
+    height: 80px;
+    width: 95px;
+    vertical-align: middle;
+    margin-bottom: 10px;
+    display: inline-block;
+}
+.footer-text p a{
+    color: rgb(214, 48, 18);
+    text-decoration: none;
+}
+.footer-text p a:hover{
+    text-decoration: underline;
+}
+/*responsive*/
+@media(max-width:1200px){
+    .pre-header{
+        display: none;
+    }
+    .header-text{
+        display: none;
+    }
+    .header-navbar{
+        display: none;
+    }
+    .contact-section{
+        margin-top: 0px;
+    }
+    .blog2{
+        display: none;
+    }
+    .brand{
+        display:none ;
+    }
+    .news-text{
+        margin-top: -140px;
+    }
+    .news-text button{
+        margin-top: 10px;
+    }
+}
+@media(min-width:1200px){
+    .navbar-icon{
+        display: none;
+    }
+  
+    
+}
